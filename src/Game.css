@@ -1,0 +1,62 @@
+.snake-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.snake-grid {
+  width: 502px;
+  height: 511px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.snake-grid-item {
+  outline: 1px solid #a9a9a9;
+  width: 20px;
+  height: 20px;
+}
+
+.is-food {
+  background-color: red;
+}
+
+.is-head {
+  background-color: black;
+}
+
+.is-tail {
+  background-color: rgba(173, 42, 48, 0.822);
+}
+
+.grid-message {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  margin-top:2%;
+}
+
+.info-box {
+  border:3px solid red; 
+  height:100%;
+  width:300px;
+  padding:5px;
+  margin:auto;
+}
+
+input[type=radio] {
+  top: 2px;
+  position: relative;
+}
+
+.info-box-disable {
+  pointer-events: none;
+}
