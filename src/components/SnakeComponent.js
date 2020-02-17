@@ -233,6 +233,10 @@ export default class SnakeComponent extends Component {
           () => this.startGame()
         );
         break;
+
+      default:
+        console.log("Level not selected");
+        break;
     }
 
     document.body.addEventListener("keydown", this.handleKeyPress);
